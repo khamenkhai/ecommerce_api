@@ -2,14 +2,18 @@ require("dotenv").config();
 const express = require("express");
 const connectDB = require("./data/connect");
 const productsRoutes = require("./routes/products_routes");
+const categoryRoutes = require("./routes/category_routes");
 const seedRoutes = require("./routes/seederRoutes");
 const errorHandler = require("./middleware/error_handler");
+const cors = require("cors");
 const app = express();
+
+app.use(cors());
 
 app.use(express.json());
 
-
 app.use("/api/products", productsRoutes)
+app.use("/api/products", categoryRoutes)
 app.use("/api/seed", seedRoutes)
 
 

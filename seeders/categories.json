@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Electronics",
+    "icon": "fa-laptop",
+    "color": "#FF5733"
+  },
+  {
+    "name": "Clothing",
+    "icon": "fa-tshirt",
+    "color": "#33A1FF"
+  },
+  {
+    "name": "Furniture",
+    "icon": "fa-couch",
+    "color": "#33FF57"
+  },
+  {
+    "name": "Books",
+    "icon": "fa-book",
+    "color": "#F033FF"
+  },
+  {
+    "name": "Sports",
+    "icon": "fa-running",
+    "color": "#FF33A1"
+  },
+  {
+    "name": "Beauty",
+    "icon": "fa-spa",
+    "color": "#33FFF5"
+  },
+  {
+    "name": "Toys",
+    "icon": "fa-gamepad",
+    "color": "#FFC733"
+  },
+  {
+    "name": "Food",
+    "icon": "fa-utensils",
+    "color": "#7B33FF"
+  }
+]
