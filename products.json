@@ -1,0 +1,23 @@
+[
+  { "name": "Wireless Mouse", "image": "mouse.jpg", "countInStock": 50 },
+  { "name": "Mechanical Keyboard", "image": "keyboard.jpg", "countInStock": 30 },
+  { "name": "Gaming Headset", "image": "headset.jpg", "countInStock": 20 },
+  { "name": "USB-C Cable", "image": "usb-c.jpg", "countInStock": 100 },
+  { "name": "Laptop Stand", "image": "stand.jpg", "countInStock": 40 },
+  { "name": "Monitor 24in", "image": "monitor.jpg", "countInStock": 15 },
+  { "name": "External Hard Drive", "image": "hdd.jpg", "countInStock": 25 },
+  { "name": "HDMI Cable", "image": "hdmi.jpg", "countInStock": 70 },
+  { "name": "Smartphone Holder", "image": "holder.jpg", "countInStock": 45 },
+  { "name": "Portable Charger", "image": "charger.jpg", "countInStock": 35 },
+  { "name": "Bluetooth Speaker", "image": "speaker.jpg", "countInStock": 30 },
+  { "name": "Webcam", "image": "webcam.jpg", "countInStock": 28 },
+  { "name": "Ethernet Cable", "image": "ethernet.jpg", "countInStock": 60 },
+  { "name": "SSD 1TB", "image": "ssd.jpg", "countInStock": 10 },
+  { "name": "USB Hub", "image": "hub.jpg", "countInStock": 55 },
+  { "name": "LED Desk Lamp", "image": "lamp.jpg", "countInStock": 20 },
+  { "name": "Laptop Backpack", "image": "bag.jpg", "countInStock": 22 },
+  { "name": "Surge Protector", "image": "protector.jpg", "countInStock": 18 },
+  { "name": "Graphics Tablet", "image": "tablet.jpg", "countInStock": 12 },
+  { "name": "Wireless Router", "image": "router.jpg", "countInStock": 8 },
+  { "name": "Noise Cancelling Headphones", "image": "nc-headphones.jpg", "countInStock": 14 }
+]
