@@ -72,11 +72,11 @@ const makeAnOrder = async (req, res) => {
 // Create a new product
 const getAllOrders = async (req, res) => {
     try {
-        const userId = req.user.userId; // assuming req.user is set by auth middleware
+        const userId = req.user.userId;
 
         const orders = await Order.find({ user: userId })
-            .populate('orderItems')          // optional: show order item details
-            .populate({                       // optional: show product info inside order items
+            .populate('orderItems')          
+            .populate({                       
                 path: 'orderItems',
                 populate: {
                     path: 'product',
@@ -86,7 +86,7 @@ const getAllOrders = async (req, res) => {
             }).populate({
                 path: 'user',
                 model: 'User',
-                select: 'name email id' // select only what you want to expose
+                select: 'name email id' 
             });
 
         res.status(200).json({

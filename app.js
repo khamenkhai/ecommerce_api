@@ -9,6 +9,7 @@ const orderRoutes = require("./routes/orderRoutes");
 const errorHandler = require("./middleware/error_handler");
 const authJwt = require("./helpers/jwt");
 const cors = require("cors");
+const path = require("path");
 const app = express();
 
 app.use(cors());
@@ -16,8 +17,10 @@ app.use(cors());
 app.use(express.json());
 // app.use(authJwt);
 
+app.use("/public/uploads", express.static(path.join(__dirname, "public/uploads")));
+
 app.use("/api/products", authJwt, productsRoutes);
-app.use("/api/products", categoryRoutes);
+app.use("/api/categories", categoryRoutes);
 app.use("/api/seed", seedRoutes);
 app.use("/api/user", userRoutes);
 app.use("/api/order", authJwt, orderRoutes);
